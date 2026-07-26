@@ -31,6 +31,17 @@ intent and income:
 - **High-Potential Dormant Users** and 4 other segments the model identifies
   by combining intent, income, and engagement signals RFM ignores.
 
+## Segment profiles at a glance
+
+<img src="assets/segment_radar.png" width="90%" />
+
+Each radar chart shows a segment's average Recency (R), Frequency (F),
+Monetary (M), and Intent (I) scores. The shapes make the differences obvious:
+**Core VIP** and **Important Value Users** score high across the board, while
+segments like **High-Potential Churn Customers** show a distinctive
+high-Monetary, low-Recency pattern — big past spenders who've gone quiet,
+exactly the group a coupon can win back.
+
 ## How it works, in brief
 
 1. Standard RFM (Recency, Frequency, Monetary) is extended with engineered
