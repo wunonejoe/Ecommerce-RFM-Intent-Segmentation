@@ -1,6 +1,8 @@
 # RFM-I: Intent-Aware Customer Segmentation for Coupon Targeting
 
-*E-Commerce Customer Segmentation Using a Modified RFM Model*
+*E-Commerce Customer Segmentation Using a Modified RFM Model — May 2025 to Jul 2025*
+
+📊 **[See the results →](RESULTS.md)** — headline numbers and key charts, no code required.
 
 ## Problem
 
@@ -63,8 +65,10 @@ under traditional RFM vs. RFM-I targeting, at equal or lower spend:
 ```
 .
 ├── RFM_Customer_Segmentation.ipynb   # Full analysis: EDA → feature engineering → model → segmentation → A/B test
-├── data/                             # Place data.csv here (not included, see below)
+├── RESULTS.md                        # Headline results and key charts, no code required
+├── data/data.csv                     # Customer dataset used in the analysis
 ├── output/                           # Generated charts land here when the notebook runs
+├── assets/                           # Chart images referenced by RESULTS.md
 ├── requirements.txt
 └── README.md
 ```
@@ -88,12 +92,10 @@ pip install -r requirements.txt
 jupyter notebook RFM_Customer_Segmentation.ipynb
 ```
 
-> **Note on data:** the customer dataset used in this project isn't included
-> in this repo. Drop your own `data.csv` into `data/` with the expected
-> columns (`Age`, `Income`, `Income_Level`, `Total_Spending`,
+> **Note on data:** `data/data.csv` is included in this repo, with the columns
+> the notebook expects: `Age`, `Income`, `Income_Level`, `Total_Spending`,
 > `Purchase_Frequency`, `Last_Login_Days_Ago`, `Time_Spent_on_Site_Minutes`,
-> `Pages_Viewed`, `Newsletter_Subscription`, `Average_Order_Value`) to
-> reproduce the analysis.
+> `Pages_Viewed`, `Newsletter_Subscription`, `Average_Order_Value`.
 
 ## Stack
 
