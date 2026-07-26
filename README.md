@@ -1,6 +1,6 @@
 # RFM-I: Intent-Aware Customer Segmentation for Coupon Targeting
 
-*E-Commerce Customer Segmentation Using a Modified RFM Model — May 2025 to Jul 2025*
+*E-Commerce Customer Segmentation Using a Modified RFM Model*
 
 📊 **[See the results →](RESULTS.md)** — headline numbers and key charts, no code required.
 
